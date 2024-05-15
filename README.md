@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:23/03/2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,112 +24,130 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>SLOT TIMETABLE</title>
+    <title>SLOT TIMETABLE</title>
 </head>
-<body>
 <center>
-<img src="logo.png" height="100" width="540">
+<img src="/static/logo.png" width='600'align="center">
 </center>
-<br>
-<table align="center" width="540" cellspacing="2" cellpadding="4" border="5" bgcolor="lavender">
-<caption><b>SLOT TIME TABLE PRIYADHARSHINI RAJA (23013908)</b></caption>
-<tr align="center">
-<th bgcolor="emarald">Day/Time</th>
-<th bgcolor="emarald">Monday</th> 
-<th bgcolor="emarald">Tuesday</th>
-<th bgcolor="emarald">Wednesday</th>
-<th bgcolor="emarald">Thursday</th>
-<th bgcolor="emarald">Friday</th>
-<th bgcolor="emarald">Saturday</th>
-</tr>
-<tr align="center">
-<th bgcolor="orange">8-10</th>
-<td >FREE SLOT </td>
-<td>INTRODUCTION TO MACHINE LEARNING</td>
-<td>BEEE</td> 
-<td>EDM</td>
-<td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-<td>INTRODUCTION TO MACHINE LEARNING</td>
-</tr>
-<tr align="center">
-<th bgcolor="orange">10-12</th> 
-<td>SOFTWARE ENGINEERING</td>
-<td>FUNDAMENTALS OF C PROGRAMMING </td>
-<td>BEEE</td>
-<td>FUNDAMENTALS OF C PROGRAMMING </td>
-<td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT</td>
-<td>OPERATING SYSTEM</td>
-</tr>
-<tr align="center">
-    <th bgcolor="orange">1-3</th> 
+<body>
+    <table BORDER='3' width='600'bgcolor='white' cellspacing='3' align="center">
+        <CAPTION align="above">SLOT TIMETABLE- HARINI S(212223040058)</CAPTION>
+        <tr>
+            <th align="center" bgcolor="yellow">Day/Time</th>
+            <th align="center" bgcolor="yellow">Monday</th>
+            <th align="center" bgcolor="yellow">Tuesday</th>
+            <th align="center" bgcolor="yellow">Wednesday</th>
+            <th align="center" bgcolor="yellow">Thursday</th>
+            <th align="center" bgcolor="yellow">Friday</th>
+            <th align="center" bgcolor="yellow">Saturday</th>
     
-    <td>BEEE</td>
-    <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT </td>
-    <td>EMPD</td>
-    <td>FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT </td>
-    <td>FREE SLOT</td>
-    <td>FREE SLOT</td>
-</tr>
-</table>
-<br>
-<table align="center" cellspacing="2" cellpadding="4" border="2">
-    <tr align="center">
-        <th>S. No.</th>
-        <th>Subject Code</th>
-        <th>Subject Name</th>
         </tr>
-        <tr>
-        <td align="center">1.</td>
-        <td align="center">19AI414</td>
-        <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-        <tr>
-        <td align="center">2.</td>
-        <td align="center">19AI304</td>
-        <td>Fundamentals Of C Programming</td>
-        </tr>
-        <tr>
-        <td align="center">3.</td>
-        <td align="center">19AI302</td>
-        <td>EDM</td>
-        </tr>
-        <tr>
-        <td align="center">4.</td>
-        <td align="center">19AI303</td>
-        <td>EMPD</td>
-        </tr>
-        <tr>
-        <td align="center">5.</td>
-        <td align="center">19CS408</td>
-        <td>Software Engineering</td>      
-    
-</tr>
-<tr>
-<td align="center">6.</td>
-<td align="center">19EE305</td>
-<td>BEEE</td>
-</tr>
-<tr>
-    <td align="center">7.</td>
-    <td align="center">19CS405</td>
-    <td>Operating System</td>
-    </tr>
-    <tr>
-         <td align="center">8.</td>
-        <td align="center">19AI410</td>
-        <td>Introduction To Machine Learning</td>
-        </tr>
-</table>
-</body>
-</html>
 
+        <tr>
+            <th align="center" bgcolor="yellow">8-10</th>
+            <td align="center" bgcolor="lightblue">Digital Electronics</td>
+            <td align="center" bgcolor="lightblue">Algebra and number theory</td>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+           
+            
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">10-12</th>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">python programming</td>
+            <td align="center" bgcolor="lightblue">Operating system</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">12-1</th>
+            <td align="center" bgcolor="lightblue" colspan="6">LUNCH</td>
+        </tr>
+
+        <tr>
+            <th align="center" bgcolor="yellow">1-3</th>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Creative skills</td>
+            <td align="center" bgcolor="lightblue">Algebra and number theory</td>
+            <td align="center" bgcolor="lightblue">Digital electronics</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+        </tr>
+
+
+        <tr>
+            <th align="center" bgcolor="yellow">3-5</th>
+            <td align="center" bgcolor="lightblue">Operating System</td>
+            <td align="center" bgcolor="lightblue">German basic and advanced</td>
+            <td align="center" bgcolor="lightblue">Fundamentals of application and Web Development</td>
+            <td align="center" bgcolor="lightblue">Python programming</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+            <td align="center" bgcolor="lightblue">Free slot</td>
+        </tr>
+    </table>
+
+    <table border="3" width="600" cellspacing="6" cellpaddling="6" align="center">
+
+        <tr>
+            <th align="center">S.NO</th>
+            <th align="center">SUBJECT CODE</th>
+            <th align="center">subject name</th>
+        </tr>
+
+        <tr>
+            <td align="center">1</td>
+            <td align="center">19AI414</td>
+            <td align="center">Fundamental of Web Application Development(FWAD)</td>
+        </tr>
+
+        <tr>
+            <td align="center">2</td>
+            <td align="center">19AI301</td>
+            <td align="center">Python Programming</td>
+        </tr>
+
+        <tr>
+            <td align="center">3</td>
+            <td align="center">19EY702</td>
+            <td align="center">Creative Skills</td>
+        </tr>
+
+        </tr>
+
+        <tr>
+            <td align="center">4</td>
+            <td align="center">19MA212</td>
+            <td align="center">Algebra and number theory</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td align="center">19EE404</td>
+            <td align="center">Digital Electronics</td>
+        </tr>
+        <tr>
+            <td align="center">6</td>
+            <td align="center">19CS405</td>
+            <td align="center">Operating System</td>
+        </tr>
+    </body>
+    </html>
+
+
+   
 ## OUTPUT
+![Screenshot 2024-03-29 205613](https://github.com/harinisaravanan10/slot/assets/149035598/feb31c8d-260e-4f6d-9b5e-9a1db38aa452)
 
-![image](https://github.com/230131249/slot/assets/150232701/360d109a-d0e9-4d7a-81df-6833d4a4a094)
-![image](https://github.com/230131249/slot/assets/150232701/50dabadf-ee3a-4b3e-a9c2-ebf3633c0d70)
+
+![Screenshot 2024-03-29 205522](https://github.com/harinisaravanan10/slot/assets/149035598/6a192abf-dc26-4812-b3d2-c5d5b649a8ac
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
